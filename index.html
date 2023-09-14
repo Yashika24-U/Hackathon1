@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nationality Finder</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div id="preloader"></div>
+    <header>
+        <h1>Nationality Finder</h1>
+    </header>
+    <main>
+        <div class="search-container">
+            <input type="text" id="nameInput" placeholder="Enter a name">
+            <button id="searchButton">Search</button>
+        </div>
+        <div id="result">
+            <h2>Results:</h2>
+            <ul id="nationalities"></ul>
+
+        </div>
+    </main>
+
+    <script src="js/script.js"></script>
+
+    <div>
+
+
+
+    </div>
+
+
+    <script>
+
+        var loader = document.getElementById("preloader")
+
+        window.addEventListener("load", function () {
+            loader.style.display = "none";
+
+        })
+
+    </script>
+
+
+
+</body>
+
+</html>
